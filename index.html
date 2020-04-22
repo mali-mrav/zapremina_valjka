@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width-device-width, initial-scale=1.0">
+        <title>Zapremina valjka</title>
+    </head>
+
+    <body>
+        <script>
+        /* Potrebna formula za obračunavanje zapremine valjka je:
+
+            V = r(na kvadrat) * π * H
+
+            r – poluprečnik osnove valjka
+            H – visina
+            π – konstanta Pi, približno 3,14 */
+
+            var r = prompt("Unesi poluprecnik valjka");
+            var H = prompt("Unesi visinu valjka");
+            var Pi = 3.14;
+
+            var V = parseInt(r * r) * Pi * parseInt(H);
+
+            alert("Zapremina valjka je: " + V);
+
+        </script>
+    </body>
+
+
+
+</html>
